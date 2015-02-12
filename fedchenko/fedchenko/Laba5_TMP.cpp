@@ -1,7 +1,6 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <iostream>
-#include <locale>
 using namespace std;
 
 #define SWAP(A, B) { int t = A; A = B; B = t; }
@@ -21,7 +20,6 @@ void bubblesort(int *a, int n)
 
 int main ()
 {
-	setlocale(LC_ALL,"Russian");
 	printf("Lab student group IU8-21 Fedchenko-Danila\n\n\n");
 	int n;
 	cout <<"Enter the amount of numbers: ";

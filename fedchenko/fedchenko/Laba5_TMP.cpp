@@ -22,9 +22,9 @@ void bubblesort(int *a, int n)
 int main ()
 {
 	setlocale(LC_ALL,"Russian");
-	printf("Лабораторная работа студента группы ИУ8-21 Федченко Данилы\n\n\n");
+	printf("Lab student group IU8-21 Fedchenko-Danila\n\n\n");
 	int n;
-	cout <<"Введите количество чисел: ";
+	cout <<"Enter the amount of numbers: ";
 	cin >> n;	
 	int *a;
 	a=new int[n];
@@ -32,12 +32,12 @@ int main ()
 	{		
 		a[i]=0;
 	}
-	cout <<"Введите "<<n<<" чисел: "; 
+	cout <<"Enter "<<n<<" numbers: "; 
 	for (int i=0;i<n;i++)
 	{		
 		cin >> a[i];
 	}
-	cout <<"Отсортированный список из "<<n<<" чисел: "; 
+	cout <<"Sorted list of 5 "<<n<<" numbers: "; 
 	bubblesort(a,n);
 	for (int i=0;i<n;i++)
 	{		

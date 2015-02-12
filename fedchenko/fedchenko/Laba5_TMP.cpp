@@ -22,6 +22,7 @@ void bubblesort(int *a, int n)
 int main ()
 {
 	setlocale(LC_ALL,"Russian");
+	printf("Лабораторная работа студента группы ИУ8-21 Федченко Данилы\n\n\n");
 	int n;
 	cout <<"Введите количество чисел: ";
 	cin >> n;	

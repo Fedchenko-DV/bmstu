@@ -20,7 +20,7 @@ void bubblesort(int *a, int n)
 
 int main ()
 {
-	printf("Lab student group IU8-21 Fedchenko-Danila\n\n\n");
+	printf("Lab student group IU8-21 Fedchenko Danila\n\n\n");
 	int n;
 	cout <<"Enter the amount of numbers: ";
 	cin >> n;	
